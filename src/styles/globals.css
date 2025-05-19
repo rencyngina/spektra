@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-orange: #f7901e;
+  --color-slate: #243943;
+  --color-slate2: #35464e;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+  
+::-webkit-font-smoothing
+
+.clip-path-custom-1 {
+  clip-path: path('M 0 0 Q 50% 20%, 100% 0 L 100% 100% Q 50% 80%, 0 100% Z');
+}
+
+.clip-path-custom-2 {
+  clip-path: path('M 0 30% Q 30% 0, 100% 0 Q 100% 30%, 100% 100% Q 0 100%, 0 30% Z');
+}
+
+/* html,
+body {
+  overflow: hidden;
+  height: 100%;
+} */
