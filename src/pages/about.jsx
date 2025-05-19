@@ -2,12 +2,10 @@
 import React from "react";
 import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer/Footer";
-import TopNav from "@/Components/Nav";
 
 const About = () => {
   return (
     <div className="bg-gray-100 flex flex-col min-h-[70vh] font-sans">
-    <TopNav />
       <Navbar/>
       <div className="h-[30vh] md:h-[20vh] w-full flex flex-col justify-center items-center bg-cover bg-center text-white text-center" style={{ backgroundImage: "linear-gradient(rgba(21,21,21,0.6), rgba(30,29,29,0.6)), url(/images/law1.jpg)" }}>
         <h1 className="text-4xl md:text-2xl mb-2 animate-fade-in">About Us</h1>

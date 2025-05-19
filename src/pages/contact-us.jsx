@@ -6,7 +6,6 @@ import Footer from "@/Components/Footer/Footer";
 import { FaFacebook, FaTwitter, FaLinkedin, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import styled, { keyframes } from "styled-components";
-import TopNav from "../components/nav";
 
 const fadeIn = keyframes`
   from {
